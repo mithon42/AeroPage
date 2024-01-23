@@ -14,7 +14,6 @@ $(".test_slide_body").slick({
 });
 
 let main_manu = document.querySelector(".main_menu");
-console.log(main_manu);
 window.addEventListener("scroll", () => {
   let scrollAmount = window.scrollY;
   if (scrollAmount > 300) {
